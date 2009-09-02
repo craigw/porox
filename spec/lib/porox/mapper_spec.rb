@@ -1,4 +1,5 @@
-require File.dirname(__FILE__) + '/../../spec_helper.rb'
+require 'spec_helper'
+require 'porox/mapper'
 
 describe "Porox::Mapper" do
   class NamedObject; attr_accessor :name; end

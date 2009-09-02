@@ -1,3 +1,5 @@
+require 'builder'
+
 module Porox
   class Mapper
     def initialize

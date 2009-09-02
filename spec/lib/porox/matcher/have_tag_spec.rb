@@ -1,4 +1,5 @@
-require File.dirname(__FILE__) + '/../../../spec_helper.rb'
+require 'spec_helper'
+require 'porox/matcher/have_tag'
 
 describe "Porox::Matcher::HaveTag" do
   before(:each) do
